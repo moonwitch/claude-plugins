@@ -1,0 +1,9 @@
+{
+  "name": "gcp-terraform-scaffold",
+  "version": "0.4.2",
+  "description": "Scaffolds a Google Cloud Terraform project in Loop's house style — one repo per project, a single terraform/ root module, environments as git branches (dev/prod) driven by one `environment` variable with everything else derived in locals, a partial GCS backend, a file-per-service layout (compute.tf, storage.tf, ... promoted to modules when complex), google + google-beta provider pins, service-account impersonation, AGENTS.md/README docs, a branch-aware GitHub Actions plan/apply workflow, and an optional auto-created GitHub repo. Consumes projects/buckets/SAs from gcp-landingzone rather than creating them.",
+  "author": {
+    "name": "Kelly Crabbe"
+  },
+  "keywords": ["terraform", "gcp", "google-cloud", "iac", "scaffold", "platform-engineering"]
+}
